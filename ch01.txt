@@ -1,0 +1,5 @@
+model: Usado para descrever um processo para gerar dados parecidos com o do dataset. "A good model can be used to predict what would happen in the real world without performing real-world experiments."
+
+- We represent data as vectors.
+- We choose an appropriate model, either using the probabilistic or optimization view.
+- We learn from available data by using numerical optimization methods with the aim that the model performs well on data not used for training.

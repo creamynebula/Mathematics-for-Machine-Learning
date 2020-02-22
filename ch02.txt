@@ -1,0 +1,1 @@
+Vetores: soma de 2 elementos quaisquer ainda pertence ao conjunto, elemento*escalar também.
