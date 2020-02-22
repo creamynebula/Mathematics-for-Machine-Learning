@@ -1,1 +1,7 @@
 Vetores: soma de 2 elementos quaisquer ainda pertence ao conjunto, elemento*escalar também.
+
+Sistema 2x3 tem variável livre (infinitas soluções). Em geral sistema nxm com m > n é assim se as outras equações não forem contraditórias.
+
+Resolver sistemas: Matriz [x].[am1 am2 ... amn] = [b1 b2 ... bm]
+aonde amn = coluna[a1n a2n ... amn]
+Só multiplicar pela inversa da matriz dos amn
