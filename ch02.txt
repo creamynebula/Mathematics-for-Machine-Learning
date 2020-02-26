@@ -24,3 +24,12 @@ A soma de matrizes simétricas A e B é simétrica
 O produto é sempre definido, mas geralmente não é simétrico
 
 Calcular inversa: Escreva a matriz aumentada A|I(n) e faça escalonamento, o resultado dps das transformações vai ser I(n)|A^(-1)
+
+Grupos: Conjunto G, operação [x], (G,[x]) formam um grupo se:
+- Fechamento: Pra todo x,y em G, x[x]y tb pertence a G
+- Associatividade: Pra todo x,y,z em G, (x[x]y)[x]z = x[x](y[x]z)
+- Elemento neutro: existe 'e' pertence a G para todo 'x' pertence a G: x[x]e = e[x]x = x
+- Elemento inverso: pra todo 'x' pertence a G existe um y tal que x[x]y = y[x]x = e
+Geralmente chamamos esse elemento y de x^(-1)
+
+Grupo Abeliano: Se em adição ao visto acima, x[x]y = y[x]x para todo x,y em G, o grupo é abeliano (comutativo).
