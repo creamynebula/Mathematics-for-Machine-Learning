@@ -25,11 +25,36 @@ O produto é sempre definido, mas geralmente não é simétrico
 
 Calcular inversa: Escreva a matriz aumentada A|I(n) e faça escalonamento, o resultado dps das transformações vai ser I(n)|A^(-1)
 
-Grupos: Conjunto G, operação [x], (G,[x]) formam um grupo se:
-- Fechamento: Pra todo x,y em G, x[x]y tb pertence a G
-- Associatividade: Pra todo x,y,z em G, (x[x]y)[x]z = x[x](y[x]z)
-- Elemento neutro: existe 'e' pertence a G para todo 'x' pertence a G: x[x]e = e[x]x = x
-- Elemento inverso: pra todo 'x' pertence a G existe um y tal que x[x]y = y[x]x = e
+Grupos: Conjunto G, operação [op], (G,[op]) formam um grupo se:
+- Fechamento: Pra todo x,y em G, x[op]y tb pertence a G
+- Associatividade: Pra todo x,y,z em G, (x[op]y)[op]z = x[op](y[op]z)
+- Elemento neutro: existe 'e' pertence a G para todo 'x' pertence a G: x[op]e = e[op]x = x
+- Elemento inverso: pra todo 'x' pertence a G existe um y tal que x[op]y = y[op]x = e
 Geralmente chamamos esse elemento y de x^(-1)
 
-Grupo Abeliano: Se em adição ao visto acima, x[x]y = y[x]x para todo x,y em G, o grupo é abeliano (comutativo).
+Grupo Abeliano: Se em adição ao visto acima, x[op]y = y[op]x para todo x,y em G, o grupo é abeliano (comutativo).
+
+General Linear Group: G: (Conjunto de matrizes A = R (nxn) invertíveis, operação .)
+= GL(n,R)
+aonde R é o conjunto dos reais. O grupo não é abeliano porque multiplicação de matrizes não é comutativa.
+
+Espaço Vetorial:
++: V(op)V -> V
+.: lambda.V -> V
+aonde lambda pertence aos reais
+
++ = operação interna, . = operação externa
+
+aonde
+1. (V,+) é abeliano
+2. Distributividade
+para todo lambda pertence a R, x,y pertencem a V:
+lambda(x+y) = lambda(x) + lambda(y)
+para todo lambda, fi pertencem a R, x pertence a V:
+(lambda + fi).x = lambda.x + fi.x
+3. Associatividade
+para todo lambda, fi pertencem a R, x pertence a V:
+lambda.(fi.x) = (lambda.fi).x
+4. elementro neutro em relação à operação externa (.).
+para todo x pertence a V
+1.x = x
