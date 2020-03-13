@@ -48,7 +48,7 @@ aonde lambda pertence aos reais
 aonde
 1. (V,+) é abeliano
 2. Distributividade
-para todo lambda pertence a R, x,y pertencem a V:
+para todo lambda pertence a R e x,y pertencem a V:
 lambda(x+y) = lambda(x) + lambda(y)
 para todo lambda, fi pertencem a R, x pertence a V:
 (lambda + fi).x = lambda.x + fi.x
